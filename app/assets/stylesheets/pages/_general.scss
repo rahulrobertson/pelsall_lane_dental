@@ -1,0 +1,21 @@
+.padding-yellow {
+  padding: 12px;
+  color: $orange;
+  background-color: rgba(247, 181, 0, 0.2);
+  border:none;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.treatment-container {
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 0 50px 0;
+}
+
+.subheading {
+  max-width: 580px;
+  margin: auto;
+  padding-bottom: 20px;
+  border-bottom: gray solid 1px;
+}
