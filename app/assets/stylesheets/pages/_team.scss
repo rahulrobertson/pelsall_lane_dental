@@ -1,0 +1,77 @@
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+  .team-image {
+    width: 180px;
+  }
+
+  .staff-card {
+    width: 100%;
+    display: flex;
+    padding: 30px 0;
+  }
+
+  .card-image {
+    width: 25%;
+  }
+
+  .staff-text {
+    width: 75%;
+  }
+
+  .staff-all {
+    padding: 0 5%;
+  }
+
+  .team-title {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+  .team-image {
+    width: 120px;
+  }
+
+  .staff-card {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .card-image {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .staff-text {
+    width: 100%;
+  }
+
+  .staff-all {
+    padding: 0 5%;
+  }
+
+  .team-title {
+    padding-top: 20px;
+  }
+}
+
+.team-image {
+  border-radius: 50%;
+}
+
+.team-title {
+  display: flex;
+  justify-content: center;
+}
+
+.team-subtitle {
+  display: flex;
+  justify-content: center;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
