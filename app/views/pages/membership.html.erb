@@ -3,109 +3,25 @@
         <h1>Membership</h1>
         <p>Select a plan to suit you</p>
     </div>
-
-<div class="row align-items-lg-center">
-          <div class="col-md-6 col-lg-4 order-2 offset-md-3 offset-lg-0 mb-5 mb-md-0 ">
-            <div class="dental-care border rounded py-9 p-5">
-              <div class="mb-4"><br>
-                <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h4 class="text-white mb-0">Plan 2</h4>
-                </div>
-                <div class="text-white mb-2">
-                  <h2>Dental Care Plan</h2>
-                </div>
-                <ul class="list-unstyled text-white mb-4">
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-yellow"></i>
-                    2 Dental Health Examinations
-                  </li>
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-yellow"></i>
-                    4 Hygiene Appointments
-                  </li>
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-yellow"></i>
-                    20% off all treatments
-                  </li>
-                </ul>
-              </div><br>
-             <p class='text-white price-font-main'>£13.25 per month</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 order-1 mb-5 mb-md-0">
-            <div class="bg-white border rounded py-7 p-5">
-              <div class="mb-4">
-                <h4 class="mb-3">Plan 1</h4>
-                <div class="mb-2">
-                  <h2>Annual Plan</h2>
-                </div>
-                <ul class="list-unstyled mb-4">
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-purple"></i>
-                    1 Dental health examination
-                  </li>
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-purple"></i>
-                    20% off all treatments
-                  </li>
-                </ul>
-              </div><br><br><br>
-            <p class='price-font'>£6.75 per month</p>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-4 order-3">
-            <div class="bg-white border rounded py-7 p-5">
-              <div class="mb-4">
-                <h4 class="mb-3">Plan 3</h4>
-                <div class="mb-2">
-                  <h2>Hygiene Plan</h2>
-                </div>
-                <ul class="list-unstyled mb-4">
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-purple"></i>
-                    2 Dental Health Examinations
-                  </li>
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-purple"></i>
-                    4 Hygiene Appointments
-                  </li>
-                  <li class="d-flex align-items-center py-2">
-                    <i class="fa fa-check font-size-13 mr-3 tick-purple"></i>
-                    20% off all treatments
-                  </li>
-                </ul>
-              </div>
-              <p class='price-font'>£19.12 per month</p>
-            </div>
-          </div>
-        </div>
-        <div class='membership-description'>
+    <%= render "shared/membership" %>
+    <div class='membership-description'>
         <h2>How Do Memberships Help You?</h2><br>
-<p class='m-0'><strong>Dental Health Examinations provide:</strong></p>
-
-​<ul>
-<li>Clinical examination to catch developing problems early</li>
-<li>Checking for signs of oral cancer for early detection</li>
-<li>X-Rays where clinically necessary for an in-depth examination of your oral health</li>
-
-
-
-​</ul>
-
-<p class='m-0'><strong>Hygiene Appointments provide:</strong></p>
-
-​<ul>
-<li>Professional removal of harmful hard plaque</li>
-<li>Advice and techniques to help you prevent tooth decay and gum disease</li>
-<li>Fresher breath and a brighter smile for improved self-esteem</li>
-
-
-
-​</ul>
-
-
-
-</div>
+        <p class='m-0'><strong>Dental Health Examinations provide:</strong></p>
+        ​<ul>
+            <li>Clinical examination to catch developing problems early</li>
+            <li>Checking for signs of oral cancer for early detection</li>
+            <li>X-Rays where clinically necessary for an in-depth examination of your oral health</li>
+            ​
+        </ul>
+        <p class='m-0'><strong>Hygiene Appointments provide:</strong></p>
+        ​<ul>
+            <li>Professional removal of harmful hard plaque</li>
+            <li>Advice and techniques to help you prevent tooth decay and gum disease</li>
+            <li>Fresher breath and a brighter smile for improved self-esteem</li>
+            ​
+        </ul>
+    <div class='my-5'>
+            <%= link_to 'Contact us for more information >', contact_path %>
+        </div>
+    </div>
 </div>

@@ -1,1 +1,71 @@
-
+<div class="alert alert-warning alert-dismissible fade show mb-0" role="alert">
+    Given the unprecedented situation in the UK regarding COVID-19 , we feel we must use our own clinical judgement and act in the best interests of our patients and staff. With heavy hearts, we have made the decision to temporarily suspend all routine examinations and treatments.
+    <strong>
+        <%= link_to "Learn More >", covid_path %></strong>
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+<div class='banner py-5'>
+    <div class='container'>
+        <div class="row justify-content-around align-items-center">
+            <div class="col-12 col-lg-7 col-md-12 text-white">
+                <h1 class='home-text home-title'>Pelsall Lane Dental Practice</h1>
+                <p class='home-text home-summary'>Providing
+                    excellent Dental Care in Rushall Walsall.</p>
+            </div>
+            <div class="col-12 col-lg-5 .col-md-12">
+                <%= render 'shared/form' %>
+            </div>
+        </div>
+    </div>
+</div>
+<div class='about-us-home container'>
+    <div class="row justify-content-center align-items-center py-5">
+        <div class="col-12 col-lg-6 col-md-12">
+            <button class='padding-yellow rounded'>About Us</button>
+            <h2 class='mt-0'>A Family Practice</h2>
+            <p>As a friendly family run practice, we really pride ourselves in our dedication to patient welfare and satisfaction.  In 1992, Dr Altaf Kotadia purchased the practice and has since made it his goal to offer his patients the highest quality of care by tending to the smallest of details.</p>
+            <%= link_to "Read more about us >", about_path  %>
+        </div>
+        <div class="col-12 col-lg-6 .col-md-12">
+            <%= image_tag "family.jpg", class: 'rounded w-100 mb-3 mb-lg-0' %>
+        </div>
+    </div>
+</div>
+<div class='membership-home bg-light py-5'>
+    <div class='container'>
+        <div class='text-center'>
+            <button class='padding-yellow rounded mb-4'>Membership</button>
+            <h4 class='mb-5'>Choose a plan to suit you</h4>
+        </div>
+        <%= render 'shared/membership' %>
+    </div>
+</div>
+<div class='customers container py-5'>
+    <h2 class='text-center mb-5'>What Our Customers Think</h2>
+    <div class='row justify-content-center text-center'>
+        <div class='col-lg-4 mb-3 mb-lg-0'>
+          <i class="fas fa-star pb-3 star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i><i class="fas fa-star star"></i>
+            <strong>
+                <p>Kieran, December 2019</p>
+            </strong>
+            <p class='m-0 text-center'>"I am new to this dentist, I have always been at one in Aldridge. i have changed to this one and it is homecoming and the dentist is the best i have ever had.
+                highly recommended this place."</p>
+        </div>
+        <div class='col-lg-4 mb-3 mb-lg-0'>
+          <i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i>
+            <strong>
+                <p>Janet, September 2019</p>
+            </strong>
+            <p class='m-0 text-center'>"Everyone makes you feel at ease. No hustle and bustle very calming and relaxed ambiance. Excellent staff and Dentists alike, superb treatment as always. Thank you."</p>
+        </div>
+        <div class='col-lg-4 mb-3 mb-lg-0'>
+          <i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i><i class="fas fa-star pb-3 star"></i>
+            <strong>
+                <p>Debbie, January 2020</p>
+            </strong>
+            <p class='m-0 text-center'>"Excellent place, always so polite, the receptionist Donna is so lovely. Would highly recommend."</p>
+        </div>
+    </div>
+</div>

@@ -1,70 +1,79 @@
-<div class="p-5 mt-5 footer">
-    <div class="container">
+
+<footer class="py-5 bg-gray-200 footer p-1">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3">
-                <div class="d-flex tooth tooth">
-                    <div class="mr-3 ml-4">
-                        <i class="fas fa-tooth tooth-icon"></i>
-                    </div>
-                    <div class="tooth-text">
-                        <p><strong>Pelsall Lane</strong></p>
-                        <p>Dental Practice</p>
-                    </div>
-                </div>
+            <div class="col-12 col-md-4 col-lg-3 mb-3">
+                <!-- Brand -->
+                <i class="fas fa-tooth tooth-icon"></i>
+                <p class='m-0 mt-3 text-white'><strong>Pelsall Lane</strong></p>
+                <p class='text-white'>Dental Practice</p>
+                <!-- Social -->
             </div>
-            <div class="col-lg-9">
-                <div class="row">
-                    <div class="col">
-                        <p><strong>Useful Links</strong>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "About", about_path %>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "Our Team", team_path %>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "Membership", membership_path%>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p><strong>Our Treatments</strong>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "General Denistry", general_path %>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "Facial Treatments", facial_path %>
-                        </p>
-                        <p class="m-0">
-                            <%= link_to "Cosmetic Treatments", cosmetic_path%>
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p><strong>Contact Us</strong>
-                        </p>
-                        <p class="m-0">
-                            01922 640554
-                        </p>
-                        <p class="m-0">
-                            pelsalldental@live.co.uk
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p><strong>Our Address</strong>
-                        </p>
-                        <p class="m-0">
-                            33B Pelsall Lane
-                        </p>
-                        <p class="m-0">
-                            Rushall
-                        </p>
-                        <p class="m-0">
-                            Walsall WS4 1NA
-                        </p>
-                    </div>
-                </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-gray-700 text-white">
+                    Useful Links
+                </h6>
+                <!-- List -->
+                <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0 grey">
+                    <li class="mb-3">
+                        <%= link_to "About", about_path %>
+                    </li>
+                    <li class="mb-3">
+                        <%= link_to "Our Team", team_path %>
+                    </li>
+                    <li class="mb-3">
+                        <%= link_to "Membership", membership_path%>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </div>
-</div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-white">
+                    Our Treatments
+                </h6>
+                <!-- List -->
+                <ul class="list-unstyled mb-6 mb-md-8 mb-lg-0">
+                    <li class="mb-3">
+                        <%= link_to "General Denistry", general_path %>
+                    </li>
+                    <li class="mb-3">
+                        <%= link_to "Facial Treatments", facial_path %>
+                    </li>
+                    <li class="mb-3">
+                        <%= link_to "Cosmetic Treatments", cosmetic_path%>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-white">
+                    Contact Us
+                </h6>
+                <!-- List -->
+                <ul class="list-unstyled mb-0 color-grey">
+                    <li class="mb-3">
+                        01922 640554
+                    </li>
+                    <li class="mb-3">
+                        pelsalldental@live.co.uk
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 col-md-4 col-lg-2">
+                <!-- Heading -->
+                <h6 class="font-weight-bold text-white">
+                    Our Address
+                </h6>
+                <!-- List -->
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-3">
+                        33B Pelsall Lane <br>
+                        Rushall <br>
+                        Walsall <br> WS4 1NA
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- / .row -->
+    </div> <!-- / .container -->
+</footer>
