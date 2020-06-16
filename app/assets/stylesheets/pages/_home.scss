@@ -21,3 +21,14 @@ text-shadow: 1px 1px 0px rgba(000, 000, 000, 0.2);
 .home-summary {
   font-size: 21px;
 }
+
+
+
+.alert, .alert a {
+  color: $orange;
+}
+
+.alert a:hover {
+  text-decoration: underline;
+  color: $orange;
+}

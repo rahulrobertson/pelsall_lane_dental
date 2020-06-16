@@ -1,6 +1,6 @@
 .footer {
   background: #3F3F3F;
-  color: white;
+  color: gray;
   font-size: 14px;
 }
 
@@ -8,3 +8,9 @@
   color: white;
 }
 
+.footer a {
+  color: gray;
+  &:hover {
+    color: white;
+  }
+}
