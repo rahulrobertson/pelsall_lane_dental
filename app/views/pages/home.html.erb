@@ -6,7 +6,7 @@
         <span aria-hidden="true">&times;</span>
     </button>
 </div>
-<div class='banner py-5'>
+<div class='banner py-5' style="background-image: url(<%= image_path "chair.png" %>);">
     <div class='container'>
         <div class="row justify-content-around align-items-center">
             <div class="col-12 col-lg-7 col-md-12 text-white">
@@ -23,7 +23,9 @@
 <div class='about-us-home container'>
     <div class="row justify-content-center align-items-center py-5">
         <div class="col-12 col-lg-6 col-md-12">
-            <button class='padding-yellow rounded'>About Us</button>
+            <div class="mb-4">
+              <span class='padding-yellow rounded'>About Us</span>
+            </div>
             <h2 class='mt-0'>A Family Practice</h2>
             <p>As a friendly family run practice, we really pride ourselves in our dedication to patient welfare and satisfaction.  In 1992, Dr Altaf Kotadia purchased the practice and has since made it his goal to offer his patients the highest quality of care by tending to the smallest of details.</p>
             <%= link_to "Read more about us >", about_path  %>
@@ -36,7 +38,9 @@
 <div class='membership-home bg-light py-5'>
     <div class='container'>
         <div class='text-center'>
-            <button class='padding-yellow rounded mb-4'>Membership</button>
+            <div class="mb-4">
+              <span class='padding-yellow rounded'>Membership</span>
+            </div>
             <h4 class='mb-5'>Choose a plan to suit you</h4>
         </div>
         <%= render 'shared/membership' %>
