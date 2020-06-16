@@ -5,6 +5,19 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <%= favicon_link_tag "logotooth.png" %>
+
+    <title>Pelsall Lane Dental Practice</title>
+    <meta name="description" content="A family run dental practice providing excellent Dental Care in Rushall Walsall.">
+
+    <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="Pelsall Lane Dental Practice" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= request.original_url %>" />
+    <meta property="og:image" content="<%= image_url 'chair.png' %>" />
+    <meta property="og:description" content="A family run dental practice providing excellent Dental Care in Rushall Walsall." />
+    <meta property="og:site_name" content="Pelsall Lane Dental Practice" />
+
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 
