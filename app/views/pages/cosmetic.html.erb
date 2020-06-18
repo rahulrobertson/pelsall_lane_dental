@@ -6,26 +6,53 @@
         </div>
     </div>
     <div class="treatment-container mt-5">
-        <div class="mb-5">
-              <span class='padding-yellow rounded'>Our Treatments</span>
-            </div>
-        <p class='m-0'><strong>Enlighten tooth whitening</strong></p>
-        <p>
-            We are an accredited Enlighten tooth whitening centre. Enlighten is the worlds best and only whitening brand to give you guaranteed long-lasting whitening results and LOW sensitivity.
-        </p><br>
-        <p class='m-0'><strong>Invisalign - Clear Braces</strong></p>
-        <p>
-            We offer Invisalign Go, a world -renowned clear brace system to straighten teeth.
-        </p><br>
-        <p class='m-0'><strong>Crowns</strong></p>
-        <p>
-            these can be used to protect and stabilise heavily filled teeth in order to restore aesthetics and function
-        </p>
-        <br>
-        <p class='m-0'><strong>Vaneers</strong></p>
-        <br>
-        <div class='mt-5'>
-            <%= link_to 'Contact us for more information >', contact_path %>
+        <div class="mb-5 text-center">
+            <span class='padding-yellow rounded'>Our Treatments</span>
         </div>
+        <div class="bg-light rounded p-3 mb-4">
+          <div class='d-flex align-items-center mb-2'>
+              <%= image_tag "englighten-p.png", class: 'cosmetic-logo mr-2'%>
+              <p class='m-0 purple-text'><strong>Englighten Tooth whitening</strong></p>
+          </div>
+          <hr>
+          <p>
+              We are an accredited Enlighten tooth whitening centre. Enlighten is the worlds best and only whitening brand to give you guaranteed long-lasting whitening results and LOW sensitivity.
+          </p>
+        </div>
+        <div class="bg-light rounded p-3 mb-4">
+
+          <div class='d-flex align-items-center'>
+              <%= image_tag "invis-p.png", class: 'cosmetic-logo mr-2'%>
+              <p class='m-0 purple-text'><strong>Invisalign Clear Braces</strong></p>
+          </div>
+          <hr>
+          <p>
+              We offer Invisalign Go, a world -renowned clear brace system to straighten teeth.
+          </p>
+          <div class='d-flex justify-content-around'>
+              <div>
+                  <p class='text-center'><strong>Before</strong></p>
+                  <%= image_tag 'before3.png', class: 'image-brace w-100' %>
+              </div>
+              <div>
+                  <p class='text-center'><strong>After</strong></p>
+                  <%= image_tag 'after2.jpg', class: 'image-brace w-100' %>
+              </div>
+          </div>
+        </div>
+        <div class="bg-light rounded p-3 mb-4">
+        <p class='m-0 mb-3 purple-text'><strong>Crowns</strong></p>
+        <hr>
+        <p>
+            These can be used to protect and stabilise heavily filled teeth in order to restore aesthetics and function
+        </p>
+        </div>
+        <div class="bg-light rounded p-3 mb-4">
+        <p class='m-0 mb-3 purple-text'><strong>Veneers</strong></p>
+        <hr>
+        <p>These are custom made from porcelain and can be used to help restore teeth that are chipped, stained or have an unusual shape</p>
+
+      </div>
+            <%= link_to 'Contact us for more information >', contact_path %>
     </div>
 </div>
