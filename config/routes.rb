@@ -7,7 +7,7 @@ get 'team', to: 'pages#team'
 get 'membership', to: 'pages#membership'
 get 'general', to: 'pages#general'
 get 'cosmetic', to: 'pages#cosmetic'
-get 'facial', to: 'pages#facial'
+get 'anti-wrinkle', to: 'pages#facial'
 get 'contact', to: 'pages#contact'
 get 'covid', to: 'pages#covid'
 end
